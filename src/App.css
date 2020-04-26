@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+html {
+  width: 100% !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-size: 1.7em !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-links {
+  font-size: 1.4em !important;
 }
-
-.App-header {
-  background-color: #282c34;
+.condiv {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+ 
+  color: rgb(255, 255, 255);
+  padding-bottom: 5em;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.landing h1{
+  padding-top: 10em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landing h2 {
+  margin-top: 0;
+  padding-top: 20px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.landing {
+   background-color: rgba(10, 10, 10, 0.8) !important;
+  background-image: url("./img/person-holding-barbell-841130.jpg");
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  
+}
+
+.nutrition {
+  background-color: rgba(10, 10, 10, 0.8) !important;
+  background-image: url("./img/flat-lay-photography-of-three-tray-of-foods-1640775.jpg");
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.nutrition p {
+  padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 28px;
+  text-align: start;
+
+}
+
+
+.calculator {
+  max-width: 450px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding-top: 2em;
+  margin: auto;
+  margin-top: 3em;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+.calculator h2 {
+  padding-top: 2em;
+}
+
+.tdeeButton {
+  margin-top: 20px !important;
+}
+
+.activity {
+  max-width:  50%;
+}
+
+.labels {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bolder;
 }
