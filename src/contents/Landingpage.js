@@ -7,12 +7,12 @@ class Landingpage extends Component {
         return(
             <div className="condiv landing" id="home">
                 <h1>Tervetuloa Kotitreenaajan Käsikirjaan! </h1>
-                <h2>Käsikirjan tarkoituksena on tarjota tietoa ja ideoita kaikille kuntoilusta kiinnostuneille
+                <p>Käsikirjan tarkoituksena on tarjota tietoa ja ideoita kaikille kuntoilusta kiinnostuneille
                     taitotasosta riippumatta. Sivulta löydät erilaisia treeniohjelmia. 
                     Suuri osan sivun informaatiosta on otettu <a href="https://thefitness.wiki/">Fitness Wiki -sivustolta</a>, joka on 
                     Redditin <a href="https://www.reddit.com/r/Fitness/">r/fitness</a> -redditin virallinen wiki. Käsikirjan tarkoituksena on 
                     kertoa yksinkertaistetusti, kuinka kehittää itseäsi fyysisesti.
-                </h2>
+                </p>
             </div>
 
         )
